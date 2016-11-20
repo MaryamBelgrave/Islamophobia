@@ -1,54 +1,67 @@
 <html>
 <title>Islamophobia</title>
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
 <head>
+<!-- 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+Latest compiled and minified JavaScript 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+-->
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 
 
-<h1><center> Islamophobia </center></h1>
-<h2><center> <a href="http://www.islamophobia.org/">In The News</a> </center></h2>
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Menu</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#">Post 9/11</a>
-    <a href="#">Stories</a>
-    <a href="#">Art Work</a>
-    <a href="#">Poetry</a>
-    <a href="#">Music</a>
-    <a href="#">What If I'm A Victim?</a>
-  </div>
-</div>
+<table>
+
+
+<center><h1> Islamophobia </h1></center>
+<center><h2><a href="http://www.islamophobia.org/">In The News</a></h2></center>
+
 
 <table style="width:100%">
-  
-  <tr>
-    <td>
+
+
+
+<tr>
+	<td style="vertical-align: top;">
+	<div class="dropdown">
+	  <button onclick="myFunction()" class="dropbtn">Menu</button>
+	  <div id="myDropdown" class="dropdown-content">
+	    <a href="post911.html">Post 9/11</a>
+	    <a href="stories.html">Stories</a>
+	    <a href="poetry.html">Poetry</a>
+	    <a href="confusion.html">What's All The Confusion?</a>
+	    <a href="victim.html">What If I'm A Victim?</a>
+	  </div>
+	</div>
+	</td>
+
+    <td style="padding-left: 20%;">
+    
         <div class="w3-content w3-section" style="max-width:500px">
-        <img class="mySlides" src="https://img.buzzfeed.com/buzzfeed-static/static/2015-12/11/13/enhanced/webdr12/enhanced-buzz-25238-1449858835-8.jpg" style="width:100%">
-        <img class="mySlides" src="http://media.philly.com/images/445*253/20160113_inq_prally13z-a.JPG" style="width:100%">
-        <img class="mySlides" src="http://i.tmgrup.com.tr/dailysabah/gallery/life/muslims-around-the-world-mark-eid-al-fitr/45_d.jpg" style="width:100%">
+        <img class="mySlides" src="https://img.buzzfeed.com/buzzfeed-static/static/2015-12/11/13/enhanced/webdr12/enhanced-buzz-25238-1449858835-8.jpg" style="width:650px; height:400px">
+        <img class="mySlides" src="http://media.philly.com/images/445*253/20160113_inq_prally13z-a.JPG" style="width:650px; height:400px">
+        <img class="mySlides" src="http://i.tmgrup.com.tr/dailysabah/gallery/life/muslims-around-the-world-mark-eid-al-fitr/45_d.jpg" style="width:650px; height:400px">
         </div>
     </td>
+    
     <td>
 	    <ul id="cities">Muslim Teens Around The World
-	    <li> <a href="philadelphia.html">Philadelphia</a> </li>
-	    <li> <a href="newyork.html">New York</a> </li>
-	    <li> <a href="kualalumpur.html">Kuala Lumpur</a>  </li>
-	    <li> <a href="dubai.html">Dubai</a>  </li>
-	    <li> <a href="austin.html">Austin</a> </li>
-   
-            </ul>
+	    <li> <a href="switzerland.html">Switzerland</a> </li>
+	    <li> <a href="usa.html">USA</a> </li>
+	    <li> <a href="uk.html">UK</a>  </li>
+	    <li> <a href="canada.html">Canada</a>  </li>
+	    <li> <a href="france.html">France</a>  </li>
+	    </ul>
     
     </td> 
-    
-    
-    
  
   </tr>
   
 </table>
+
 
 <script>
 
@@ -81,7 +94,7 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}
     x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 5000);
+    setTimeout(carousel, 2000);
 }
 
 </script>
